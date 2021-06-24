@@ -1,8 +1,12 @@
-### Hi there 👋
+### Thanks for stopping by
+
+Pythonista :snake: hacking on and with the language every day.
+
+Command line warrior :crossed_swords: wielding bash `$_` and @neovim
+
+I currently work for @ActiveState as a Python specialist. I help them build better language cores and packages for a variety of languages, Python among them.
 
 <!--
-**ucodery/ucodery** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
