@@ -1,10 +1,17 @@
 ### Thanks for stopping by
+Most days you will find me being a
 
-Pythonista :snake: hacking on and with the language every day.
+Pythonista :snake: hacking on and with the language every day
 
-Command line warrior :crossed_swords: wielding bash `$_` and @neovim
+Command line warrior :crossed_swords: wielding bash `$_` and [@neovim](https://github.com/neovim/neovim)
 
-I currently work for @ActiveState as a Python specialist. I help them build better language cores and packages for a variety of languages, Python among them.
+Engineer at [@ActiveState](https://github.com/ActiveState) as a Python specialist. I help them build better language cores and packages for a variety of languages, Python among them
+
+----
+You can find some of my other works here:
+
+* Packaging Python in 2021 [YouTube](https://www.youtube.com/watch?v=j8iXO5VErjw)
+* How To Package Python Projects In 2021 [Blog](https://www.activestate.com/blog/how-to-package-python-projects-in-2021/)
 
 <!--
 Here are some ideas to get you started:
