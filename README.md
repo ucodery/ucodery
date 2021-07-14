@@ -12,6 +12,7 @@ You can find some of my other works here:
 
 * Packaging Python in 2021 [YouTube](https://www.youtube.com/watch?v=j8iXO5VErjw)
 * How To Package Python Projects In 2021 [Blog](https://www.activestate.com/blog/how-to-package-python-projects-in-2021/)
+* Mouse Vs Python [Interview](https://www.blog.pythonlibrary.org/2021/07/12/pydev-of-the-week-jeremiah-paige/)
 
 <!--
 Here are some ideas to get you started:
