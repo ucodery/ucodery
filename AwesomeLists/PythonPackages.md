@@ -42,3 +42,10 @@
   * https://hyperlink.readthedocs.io/en/latest/
   * https://github.com/python-hyper/hyperlink/blob/master/docs/index.rst
   * https://pypi.org/project/hyperlink/
+
+# Test 🔍
+
+* mktestdocs
+  * https://github.com/koaning/mktestdocs/blob/main/README.md
+  * https://github.com/koaning/mktestdocs
+  * https://pypi.org/project/mktestdocs/
