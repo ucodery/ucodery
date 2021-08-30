@@ -49,3 +49,11 @@
   * https://github.com/koaning/mktestdocs/blob/main/README.md
   * https://github.com/koaning/mktestdocs
   * https://pypi.org/project/mktestdocs/
+* pytest
+  * https://docs.pytest.org/en/latest/
+  * https://github.com/pytest-dev/pytest
+  * https://pypi.org/project/pytest/
+* pytest-cases
+  * https://smarie.github.io/python-pytest-cases/
+  * https://github.com/smarie/python-pytest-cases
+  * https://pypi.org/project/pytest-cases/
