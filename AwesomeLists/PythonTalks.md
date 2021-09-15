@@ -1,3 +1,6 @@
 * [Your Name Is Invalid!](https://www.youtube.com/watch?v=telNgfvgmHs)
+* [Solve Your Problems With Sloppy Python](https://www.youtube.com/watch?v=Jd8ulMb6_ls)
 * [Writing Good Documentation for Developers](https://www.youtube.com/watch?v=eWaWvUhpseM)
 * [BDFL Python 3 retrospective](https://www.youtube.com/watch?v=Oiw23yfqQy8)
+* [Mocking and Patching Pitfalls](https://www.youtube.com/watch?v=Ldlz4V-UCFw&t=409s)
+* [Demystifying the Patch Function](https://www.youtube.com/watch?v=ww1UsGZV8fQ&t=405s)
