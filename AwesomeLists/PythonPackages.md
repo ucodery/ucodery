@@ -57,3 +57,10 @@
   * https://smarie.github.io/python-pytest-cases/
   * https://github.com/smarie/python-pytest-cases
   * https://pypi.org/project/pytest-cases/
+
+# Profiling 📋
+
+* scalene
+  * https://github.com/plasma-umass/scalene/blob/master/README.md
+  * https://github.com/plasma-umass/scalene
+  * https://pypi.org/project/scalene/
