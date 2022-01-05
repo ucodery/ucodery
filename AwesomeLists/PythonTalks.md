@@ -4,5 +4,6 @@
 * [No, Not Typing. Types!](https://www.youtube.com/watch?v=rLRNY5iSvk0)
 * [BDFL Python 3 retrospective](https://www.youtube.com/watch?v=Oiw23yfqQy8)
 * [Mocking and Patching Pitfalls](https://www.youtube.com/watch?v=Ldlz4V-UCFw&t=409s)
+* [Inside the Python GIL](https://www.youtube.com/watch?v=ph374fJqFPE)
 * [Demystifying the Patch Function](https://www.youtube.com/watch?v=ww1UsGZV8fQ&t=405s)
 * [Generators, Coroutines, and Nanoservices](https://www.youtube.com/watch?v=rjBSOHXW5DY)
