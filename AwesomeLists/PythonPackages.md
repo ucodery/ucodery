@@ -36,6 +36,23 @@
   * https://github.com/gruns/icecream
   * https://pypi.org/project/icecream/
 
+# Enhanced Libraries 📑
+
+* boltons
+  * https://boltons.readthedocs.io/
+  * https://github.com/mahmoud/boltons
+  * https://pypi.org/project/boltons/
+
+* more-itertools
+  * https://github.com/more-itertools/more-itertools/blob/master/README.rst
+  * https://github.com/more-itertools/more-itertools
+  * https://pypi.org/project/more-itertools/
+
+* regex
+  * https://github.com/mrabarnett/mrab-regex/blob/hg/README.rst
+  * https://github.com/mrabarnett/mrab-regex
+  * https://pypi.org/project/regex/
+
 # Net 📶
 
 * hyperlink
