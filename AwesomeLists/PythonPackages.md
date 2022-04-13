@@ -81,3 +81,7 @@
   * https://github.com/plasma-umass/scalene/blob/master/README.md
   * https://github.com/plasma-umass/scalene
   * https://pypi.org/project/scalene/
+* fil
+  * https://pythonspeed.com/fil/docs/
+  * https://github.com/pythonspeed/filprofiler
+  * https://pypi.org/project/filprofiler/
