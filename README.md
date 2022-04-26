@@ -10,7 +10,7 @@ Engineer at [@ActiveState](https://github.com/ActiveState) as a Python specialis
 ----
 You can find some of my other works here:
 
-* Invisible Walls: Isolating Your Python [YouTube](https://bugs.python.org/issue46570)
+* Invisible Walls: Isolating Your Python [YouTube](https://www.youtube.com/watch?v=n9iYvtDDgr8)
 * Packaging Python in 2021 [YouTube](https://www.youtube.com/watch?v=j8iXO5VErjw)
 * How To Package Python Projects In 2021 [Blog](https://www.activestate.com/blog/how-to-package-python-projects-in-2021/)
 * Formalizing a Language [YouTube](https://www.youtube.com/watch?v=I89ZuZYgzok)
