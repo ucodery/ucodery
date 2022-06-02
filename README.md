@@ -14,6 +14,7 @@ You can find some of my other works here:
 * Packaging Python in 2021 [YouTube](https://www.youtube.com/watch?v=j8iXO5VErjw)
 * How To Package Python Projects In 2021 [Blog](https://www.activestate.com/blog/how-to-package-python-projects-in-2021/)
 * Formalizing a Language [YouTube](https://www.youtube.com/watch?v=I89ZuZYgzok)
+* Intro to Introspection [YouTube](https://www.youtube.com/watch?v=2XDT37Tbv9c)
 * Mouse Vs Python [Interview](https://www.blog.pythonlibrary.org/2021/07/12/pydev-of-the-week-jeremiah-paige/)
 
 <!--
