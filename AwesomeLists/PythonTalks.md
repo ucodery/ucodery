@@ -1,5 +1,6 @@
 * [Your Name Is Invalid!](https://www.youtube.com/watch?v=telNgfvgmHs)
 * [Solve Your Problems With Sloppy Python](https://www.youtube.com/watch?v=Jd8ulMb6_ls)
+* [Write Docs Devs Love: Ten Tips To Level Up Your Tech Writing](https://www.youtube.com/watch?v=9WobKoE9OPI)
 * [Writing Good Documentation for Developers](https://www.youtube.com/watch?v=eWaWvUhpseM)
 * [No, Not Typing. Types!](https://www.youtube.com/watch?v=rLRNY5iSvk0)
 * [BDFL Python 3 retrospective](https://www.youtube.com/watch?v=Oiw23yfqQy8)
