@@ -81,6 +81,14 @@
   * https://github.com/plasma-umass/scalene/blob/master/README.md
   * https://github.com/plasma-umass/scalene
   * https://pypi.org/project/scalene/
+* memray
+  * https://bloomberg.github.io/memray/
+  * https://github.com/bloomberg/memray
+  * https://pypi.org/project/memray/
+* austin
+  * https://github.com/P403n1x87/austin#usage
+  * https://github.com/P403n1x87/austin
+  * https://github.com/P403n1x87/austin#installation
 * fil
   * https://pythonspeed.com/fil/docs/
   * https://github.com/pythonspeed/filprofiler
