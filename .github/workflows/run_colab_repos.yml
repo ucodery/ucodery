@@ -18,7 +18,7 @@ jobs:
         python-version: 3.11
     - name: Install Python dependencies
       run: |
-        python -m pip install -r python-graphql-client==0.3.0
+        python -m pip install python-graphql-client==0.3.0
     - name: print get_colab_repos.py
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
