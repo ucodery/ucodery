@@ -1,3 +1,4 @@
+import os
 import requests
 
 def make_pulls_query():
