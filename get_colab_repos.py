@@ -24,7 +24,7 @@ def make_pulls_query():
       }
     }
     '''
-    auth = {'Authorization': 'Bearer {token}'.format(token=os.environ['GITHUB_TOKEN']}
+    auth = {'Authorization': 'Bearer {token}'.format(token=os.environ['GITHUB_TOKEN'])}
     more_pages = True
     after_token = 'null'
     pushed_repos = set()
