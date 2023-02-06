@@ -1,7 +1,7 @@
-from python_graphql_client import GraphqlClient
+import requests
 
 def make_pulls_query():
-    graphql = GraphqlClient(endpoint="https://api.github.com/graphql")
+    url='https://api.github.com/graphql'
     query_template = '''
     {
       viewer {
@@ -29,7 +29,7 @@ def make_pulls_query():
     after_token = 'null'
     pushed_repos = set()
     while more_pages:
-        maybe_query = graphlq.execute(query=query_template.format(after=after_token), headers=auth)
+        maybe_query = requests.post(url, json={'query': query_template.format(after=after_token)}, headers=auth)
         maybe_query.raise_for_status()
         viewer = maybe_query.json()['data']['viewer']
         my_id = viewer['id']
