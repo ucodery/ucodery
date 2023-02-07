@@ -7,6 +7,14 @@ def make_pulls_query():
     {{
       viewer {{
         id
+        login
+        name
+        organization {{
+          name
+        }}
+        company
+        email
+        url
         pullRequests(first: 100, states: MERGED, after: {after}) {{
           pageInfo {{
             hasNextPage
