@@ -77,14 +77,17 @@ def build_html(colab_repos):
 
 def replace_readme(extra_content):
     with open('README.md', 'r') as readme_read, open('README.new', 'w') as readme_write:
+        print("OPEN")
         for line in readme_read:
             readme_write.write(line)
             if line == '<!-- replace start -->':
+                print("REPLACING!")
                 readme_write.write(extra_content)
                 while line != '<!-- replace end -->':
                     line = next(readme_read)
                 readme_write.write(line)
     os.rename('README.new', 'README.md')
+    print(os.path.abspath('README.md'))
 
 
 if __name__ == '__main__':
