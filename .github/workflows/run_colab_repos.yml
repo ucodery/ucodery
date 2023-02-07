@@ -21,7 +21,7 @@ jobs:
         python -m pip install requests
     - name: print get_colab_repos.py
       env:
-        GITHUB_TOKEN: ${{ secrets.README-stats }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |-
         python get_colab_repos.py
         cat README.md
