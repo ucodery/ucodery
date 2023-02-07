@@ -32,6 +32,7 @@ def make_pulls_query():
     while more_pages:
         maybe_query = requests.post(url, json={'query': query_template.format(after=after_token)}, headers=auth)
         maybe_query.raise_for_status()
+        print(maybe_query.json().keys())
         viewer = maybe_query.json()['data']['viewer']
         my_id = viewer['id']
         pulls = viewer['pullRequests']
