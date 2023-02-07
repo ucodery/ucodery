@@ -5,6 +5,28 @@ def make_pulls_query():
     url='https://api.github.com/graphql'
     query_template = '''
     {{
+      user(login: "ucodery") {{
+        id
+        pullRequests(states: MERGED, first: 100, after: {after}) {{
+          pageInfo {{
+            hasNextPage
+            endCursor
+          }}
+          nodes {{
+            repository {{
+              stargazerCount
+              url
+              owner {{
+                id
+              }}
+            }}
+          }}
+        }}
+      }}
+    }}
+    '''
+    ''' 
+    {{
       viewer {{
         id
         pullRequests(first: 100, states: MERGED, after: {after}) {{
@@ -35,9 +57,9 @@ def make_pulls_query():
         maybe_query.raise_for_status()
         if errors := maybe_query.json().get('errors'):
                 print(errors)
-        viewer = maybe_query.json()['data']['viewer']
-        my_id = viewer['id']
-        pulls = viewer['pullRequests']
+        me = maybe_query.json()['data']['user']
+        my_id = me['id']
+        pulls = me['pullRequests']
         more_pages = pulls['pageInfo']['hasNextPage']
         after_token = pulls['pageInfo']['endCursor']
         print('#', len(pulls['nodes']))
