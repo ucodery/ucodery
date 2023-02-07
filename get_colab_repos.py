@@ -43,6 +43,11 @@ def make_pulls_query():
         viewer = maybe_query.json()['data']['viewer']
         my_id = viewer['id']
         print(f"|> {my_id=}")
+        print(f"|> {viewer['name']=}")
+        print(f"|> {viewer['login']=}")
+        print(f"|> {viewer['company']=}")
+        print(f"|> {viewer['email']=}")
+        print(f"|> {viewer['url']=}")
         pulls = viewer['pullRequests']
         more_pages = pulls['pageInfo']['hasNextPage']
         after_token = pulls['pageInfo']['endCursor']
