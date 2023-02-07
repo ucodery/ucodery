@@ -32,7 +32,7 @@ def make_pulls_query():
     while more_pages:
         maybe_query = requests.post(url, json={'query': query_template.format(after=after_token)}, headers=auth)
         maybe_query.raise_for_status()
-        if errors := maybe_query.json()['errors']:
+        if errors := maybe_query.json().get('errors'):
                 print(errors)
         viewer = maybe_query.json()['data']['viewer']
         my_id = viewer['id']
