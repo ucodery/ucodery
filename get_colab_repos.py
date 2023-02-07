@@ -9,9 +9,6 @@ def make_pulls_query():
         id
         login
         name
-        organization {{
-          name
-        }}
         company
         email
         url
