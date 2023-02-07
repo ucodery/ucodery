@@ -21,4 +21,172 @@ You can find some of my other works here:
 ## Projects I am a collaborator on
 <!-- using https://github.com/anuraghazra/github-readme-stats#customization -->
 <!-- replace start -->
-<!-- replace end -->
+
+    <picture>
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true&theme=dark"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true" />
+    </picture>
+    
+
+    <picture>
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true&theme=dark"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true" />
+    </picture>
+    
+
+    <picture>
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true&theme=dark"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true" />
+    </picture>
+    
+
+    <picture>
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true&theme=dark"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true" />
+    </picture>
+    
+
+    <picture>
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true&theme=dark"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true" />
+    </picture>
+    
+
+    <picture>
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true&theme=dark"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true" />
+    </picture>
+    
+
+    <picture>
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true&theme=dark"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true" />
+    </picture>
+    
+
+    <picture>
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true&theme=dark"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true" />
+    </picture>
+    
+
+    <picture>
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true&theme=dark"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true" />
+    </picture>
+    
+
+    <picture>
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true&theme=dark"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true" />
+    </picture>
+    
+
+    <picture>
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true&theme=dark"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true" />
+    </picture>
+    
+
+    <picture>
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true&theme=dark"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true" />
+    </picture>
+    
+
+    <picture>
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true&theme=dark"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true" />
+    </picture>
+    <!-- replace end -->
