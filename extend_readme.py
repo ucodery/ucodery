@@ -36,7 +36,7 @@ def make_pulls_query():
         more_pages = pulls['pageInfo']['hasNextPage']
         after_token = pulls['pageInfo']['endCursor']
         pushed_repos |= {
-            f"node['repository']['name']/node['repository']['owner']['login']": {
+            f"{node['repository']['name']}/{node['repository']['owner']['login']}": {
                 'stars': node['repository']['stargazerCount'],
                 'name': node['repository']['name'],
                 'org': node['repository']['owner']['login']
