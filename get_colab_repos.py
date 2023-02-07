@@ -7,7 +7,7 @@ def make_pulls_query():
     {{
       viewer {{
       id
-        pullRequests(first: 100, states: MERGED, after{after}) {{
+        pullRequests(first: 100, states: MERGED, after: {after}) {{
          pageInfo {{
           hasNextPage
           endCursor
