@@ -6,21 +6,22 @@ def make_pulls_query():
     query_template = '''
     {{
       viewer {{
-      id
+        id
         pullRequests(first: 100, states: MERGED, after: {after}) {{
-         pageInfo {{
-          hasNextPage
-          endCursor
-        }}
-         nodes {{
-           repository {{
-             url
-             visibility
-             owner {{
-              id
-             }}
-           }}
-         }}
+          pageInfo {{
+            hasNextPage
+            endCursor
+          }}
+          nodes {{
+            repository {{
+              url
+              visibility
+              owner {{
+                id
+              }}
+              stargazerCount
+            }}
+          }}
         }}
       }}
     }}
@@ -28,7 +29,7 @@ def make_pulls_query():
     auth = {'Authorization': 'Bearer {token}'.format(token=os.environ['GITHUB_TOKEN'])}
     more_pages = True
     after_token = 'null'
-    pushed_repos = set()
+    pushed_repos = {}
     while more_pages:
         maybe_query = requests.post(url, json={'query': query_template.format(after=after_token)}, headers=auth)
         maybe_query.raise_for_status()
@@ -45,7 +46,7 @@ def make_pulls_query():
             repo = node['repository']
             if repo['visability'] == 'PUBLIC' and repo['owner']['id'] != my_id:
                 print('FOUND')
-                pushed_repos.add(repo['url'])
+                pushed_repos[repo['url']] = repo['stargazerCount']
             else: print('HIDDEN')
     return pushed_repos
         
