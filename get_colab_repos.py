@@ -4,26 +4,26 @@ import requests
 def make_pulls_query():
     url='https://api.github.com/graphql'
     query_template = '''
-    {
-      viewer {
+    {{
+      viewer {{
       id
-        pullRequests(last: 100, states: MERGED) {
-         pageInfo {
+        pullRequests(first: 100, states: MERGED, after{after}) {{
+         pageInfo {{
           hasNextPage
           endCursor
-        }
-         nodes {
-           repository {
+        }}
+         nodes {{
+           repository {{
              url
              visibility
-             owner {
+             owner {{
               id
-             }
-           }
-         }
-        }
-      }
-    }
+             }}
+           }}
+         }}
+        }}
+      }}
+    }}
     '''
     auth = {'Authorization': 'Bearer {token}'.format(token=os.environ['GITHUB_TOKEN'])}
     more_pages = True
