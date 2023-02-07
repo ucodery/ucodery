@@ -39,10 +39,13 @@ def make_pulls_query():
         pulls = viewer['pullRequests']
         more_pages = pulls['pageInfo']['hasNextPage']
         after_token = pulls['pageInfo']['endCursor']
+        print('#', len(pulls['nodes'])
         for node in pulls['nodes']:
             repo = node['repository']
             if repo['visability'] == 'PUBLIC' and repo['owner']['id'] != my_id:
+                print('FOUND')
                 pushed_repos.add(repo['url'])
+            else: print('HIDDEN')
     return pushed_repos
         
 
