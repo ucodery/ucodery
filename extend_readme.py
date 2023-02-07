@@ -63,14 +63,14 @@ def build_html(colab_repos):
     html_template = cleandoc('''
     <picture>
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true&theme=dark"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username={user}&repo={repo}&show_owner=true&theme=dark"
       media="(prefers-color-scheme: dark)"
     />
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username={user}&repo={repo}&show_owner=true"
       media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username={user}&repo={repo}&show_owner=true" />
     </picture>
     ''')
     return '\n'.join(html_template.format(user=user, repo=repo) for user, repo in colab_repos)
