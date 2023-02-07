@@ -86,6 +86,8 @@ def replace_readme(extra_content):
                 while line != '<!-- replace end -->':
                     line = next(readme_read)
                 readme_write.write(line)
+            else:
+                print(repr(line))
     os.rename('README.new', 'README.md')
     print(os.path.abspath('README.md'))
 
