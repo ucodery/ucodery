@@ -73,7 +73,7 @@ def build_html(colab_repos):
     <img src="https://github-readme-stats.vercel.app/api/pin/?username={user}&repo={repo}&show_owner=true" />
     </picture>
     ''')
-    return '\n'.join(html_template.format(user=user, repo=repo) for user, repo in colab_repos)
+    return '\n'.join(html_template.format(user=user, repo=repo) for user, repo in colab_repos) + '\n'
 
 
 def replace_readme(extra_content):
