@@ -1,0 +1,33 @@
+name: Generate additional README.md content
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron:  '1 2 * * 0'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repo
+      uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.11
+    - name: Install Python dependencies
+      run: |
+        python -m pip install requests
+    - name: find repos
+      env:
+        TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |-
+        python extend_readme.py
+    - name: commit if changed
+      run: |-
+        git diff
+        git config --global user.email "ucodery@gmail.com"
+        git config --global user.name "ucodery"
+        git diff --quiet || (git add README.md && git commit -m "New generated content")
+        git push
