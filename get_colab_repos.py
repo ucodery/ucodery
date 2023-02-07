@@ -6,7 +6,6 @@ def make_pulls_query():
     query_template = '''
     {{
       user(login: "ucodery") {{
-        id
         pullRequests(states: MERGED, first: 100, after: {after}) {{
           pageInfo {{
             hasNextPage
@@ -17,31 +16,8 @@ def make_pulls_query():
               stargazerCount
               url
               owner {{
-                id
+                login
               }}
-            }}
-          }}
-        }}
-      }}
-    }}
-    '''
-    ''' 
-    {{
-      viewer {{
-        id
-        pullRequests(first: 100, states: MERGED, after: {after}) {{
-          pageInfo {{
-            hasNextPage
-            endCursor
-          }}
-          nodes {{
-            repository {{
-              url
-              visibility
-              owner {{
-                id
-              }}
-              stargazerCount
             }}
           }}
         }}
@@ -57,18 +33,16 @@ def make_pulls_query():
         maybe_query.raise_for_status()
         if errors := maybe_query.json().get('errors'):
                 print(errors)
-        me = maybe_query.json()['data']['user']
-        my_id = me['id']
-        pulls = me['pullRequests']
+        pulls = maybe_query.json()['data']['user']['pullRequests']
         more_pages = pulls['pageInfo']['hasNextPage']
         after_token = pulls['pageInfo']['endCursor']
-        print('#', len(pulls['nodes']))
         for node in pulls['nodes']:
             repo = node['repository']
-            if repo['owner']['id'] != my_id:
+            if repo['owner']['login'] not in ('ucodery', 'ActiveState'):
                 pushed_repos[repo['url']] = repo['stargazerCount']
     return pushed_repos
         
 
 if __name__ == '__main__':
-    print(sorted(make_pulls_query()))
+    repos = make_pulls_query()
+    print(sorted(repos, key=repos.get))
