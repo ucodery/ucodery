@@ -65,7 +65,7 @@ def make_pulls_query():
         print('#', len(pulls['nodes']))
         for node in pulls['nodes']:
             repo = node['repository']
-            if repo['visability'] == 'PUBLIC' and repo['owner']['id'] != my_id:
+            if repo['owner']['id'] != my_id:
                 pushed_repos[repo['url']] = repo['stargazerCount']
     return pushed_repos
         
