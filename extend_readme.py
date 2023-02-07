@@ -1,5 +1,6 @@
 import os
 import requests
+from inspect import cleandoc
 
 def make_pulls_query():
     url='https://api.github.com/graphql'
@@ -59,7 +60,7 @@ def filter_and_sort_repos(repos):
 
 
 def build_html(colab_repos):
-    html_template = '''
+    html_template = cleandoc('''
     <picture>
     <source
       srcset="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true&theme=dark"
@@ -71,7 +72,7 @@ def build_html(colab_repos):
     />
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&show_owner=true" />
     </picture>
-    '''
+    ''')
     return '\n'.join(html_template.format(user=user, repo=repo) for user, repo in colab_repos)
 
 
