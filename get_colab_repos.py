@@ -7,11 +7,6 @@ def make_pulls_query():
     {{
       viewer {{
         id
-        login
-        name
-        company
-        email
-        url
         pullRequests(first: 100, states: MERGED, after: {after}) {{
           pageInfo {{
             hasNextPage
@@ -31,7 +26,7 @@ def make_pulls_query():
       }}
     }}
     '''
-    auth = {'Authorization': 'Bearer {token}'.format(token=os.environ['GITHUB_TOKEN'])}
+    auth = {'Authorization': 'Bearer {token}'.format(token=os.environ['TOKEN'])}
     more_pages = True
     after_token = 'null'
     pushed_repos = {}
@@ -42,12 +37,6 @@ def make_pulls_query():
                 print(errors)
         viewer = maybe_query.json()['data']['viewer']
         my_id = viewer['id']
-        print(f"|> {my_id=}")
-        print(f"|> {viewer['name']=}")
-        print(f"|> {viewer['login']=}")
-        print(f"|> {viewer['company']=}")
-        print(f"|> {viewer['email']=}")
-        print(f"|> {viewer['url']=}")
         pulls = viewer['pullRequests']
         more_pages = pulls['pageInfo']['hasNextPage']
         after_token = pulls['pageInfo']['endCursor']
@@ -55,9 +44,7 @@ def make_pulls_query():
         for node in pulls['nodes']:
             repo = node['repository']
             if repo['visability'] == 'PUBLIC' and repo['owner']['id'] != my_id:
-                print('FOUND')
                 pushed_repos[repo['url']] = repo['stargazerCount']
-            else: print('HIDDEN')
     return pushed_repos
         
 
