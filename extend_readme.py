@@ -80,10 +80,10 @@ def replace_readme(extra_content):
         print("OPEN")
         for line in readme_read:
             readme_write.write(line)
-            if line == '<!-- replace start -->':
+            if line.strip() == '<!-- replace start -->':
                 print("REPLACING!")
                 readme_write.write(extra_content)
-                while line != '<!-- replace end -->':
+                while line.strip() != '<!-- replace end -->':
                     line = next(readme_read)
                 readme_write.write(line)
             else:
