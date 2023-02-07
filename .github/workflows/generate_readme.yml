@@ -1,4 +1,4 @@
-name: test get_colab_repos.py
+name: Generate additional README.md content
 
 on:
   push:
@@ -23,4 +23,11 @@ jobs:
       env:
         TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |-
-        python get_colab_repos.py
+        python extend_readme.py
+    - name: commit if changed
+      run: |-
+        git diff
+        git config --global user.email "ucodery@gmail.com"
+        git config --global user.name "ucodery"
+        git diff --quiet || (git add README.md && git commit -m "New generated content")
+        git push
