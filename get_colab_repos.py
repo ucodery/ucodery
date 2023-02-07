@@ -36,6 +36,7 @@ def make_pulls_query():
                 print(errors)
         viewer = maybe_query.json()['data']['viewer']
         my_id = viewer['id']
+        print("|> {my_id=}")
         pulls = viewer['pullRequests']
         more_pages = pulls['pageInfo']['hasNextPage']
         after_token = pulls['pageInfo']['endCursor']
