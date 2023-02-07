@@ -19,9 +19,8 @@ jobs:
     - name: Install Python dependencies
       run: |
         python -m pip install requests
-    - name: print get_colab_repos.py
+    - name: find repos
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |-
         python get_colab_repos.py
-        cat README.md
