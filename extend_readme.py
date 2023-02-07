@@ -42,7 +42,6 @@ def make_pulls_query():
                 'org': node['repository']['owner']['login']
             }
             for node in pulls['nodes']
-            if node['repository']['owner']['login'] not in ('ucodery', 'ActiveState')
         }
     return pushed_repos
 
@@ -55,6 +54,7 @@ def filter_and_sort_repos(repos):
             key=lambda k: repos[k]['stars'],
             reverse=True,
         )
+        if repos[r]['org'] not in ('ucodery', 'ActiveState')
     ]
 
 
