@@ -53,6 +53,11 @@
   * https://github.com/mrabarnett/mrab-regex
   * https://pypi.org/project/regex/
 
+* environs
+  * https://github.com/sloria/environs/blob/master/README.md
+  * https://github.com/sloria/environs
+  * https://pypi.org/project/environs/
+
 # Net 📶
 
 * hyperlink
@@ -93,3 +98,10 @@
   * https://pythonspeed.com/fil/docs/
   * https://github.com/pythonspeed/filprofiler
   * https://pypi.org/project/filprofiler/
+
+# Jokes 🎭
+
+* vigil
+  * https://github.com/munificent/vigil
+* pointers
+  * https://github.com/ZeroIntensity/pointers.py
