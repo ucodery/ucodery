@@ -79,6 +79,10 @@
   * https://smarie.github.io/python-pytest-cases/
   * https://github.com/smarie/python-pytest-cases
   * https://pypi.org/project/pytest-cases/
+* dirty-equals
+  * https://dirty-equals.helpmanual.io/
+  * https://github.com/samuelcolvin/dirty-equals
+  * https://pypi.org/project/dirty-equals/
 
 # Profiling 📋
 
