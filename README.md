@@ -216,4 +216,17 @@ You can find some of my other works here:
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=sarugaku&repo=plette&show_owner=true" />
   </picture>
 </a>
+<a href="https://github.com/unraid/docs">
+  <picture>
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=unraid&repo=docs&show_owner=true&theme=dark"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=unraid&repo=docs&show_owner=true"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=unraid&repo=docs&show_owner=true" />
+  </picture>
+</a>
 <!-- replace end -->
