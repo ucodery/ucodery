@@ -138,19 +138,6 @@ You can find some of my other works here:
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=timothycrosley&repo=portray&show_owner=true" />
   </picture>
 </a>
-<a href="https://github.com/koaning/mktestdocs">
-  <picture>
-    <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=koaning&repo=mktestdocs&show_owner=true&theme=dark"
-      media="(prefers-color-scheme: dark)"
-    />
-    <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=koaning&repo=mktestdocs&show_owner=true"
-      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-    />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=koaning&repo=mktestdocs&show_owner=true" />
-  </picture>
-</a>
 <a href="https://github.com/theacodes/witchhazel">
   <picture>
     <source
@@ -162,6 +149,19 @@ You can find some of my other works here:
       media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=theacodes&repo=witchhazel&show_owner=true" />
+  </picture>
+</a>
+<a href="https://github.com/koaning/mktestdocs">
+  <picture>
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=koaning&repo=mktestdocs&show_owner=true&theme=dark"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=koaning&repo=mktestdocs&show_owner=true"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=koaning&repo=mktestdocs&show_owner=true" />
   </picture>
 </a>
 <a href="https://github.com/pyOpenSci/software-peer-review">
