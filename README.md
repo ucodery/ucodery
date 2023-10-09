@@ -1,22 +1,27 @@
-### Thanks for stopping by
+## Thanks for stopping by
 Most days you will find me being a
 
-Pythonista :snake: hacking on and with the language every day
+:snake: Pythonista hacking on and with the language every day
 
-Command line warrior :crossed_swords: wielding bash `$_` and [@neovim](https://github.com/neovim/neovim)
+:crab: Rustacean oxidizing bits for fun and profit
 
-Engineer at [@ActiveState](https://github.com/ActiveState) as a Python specialist. I help them build better language cores and packages for a variety of languages, Python among them
+:crossed_swords: Command line warrior wielding bash `$_` and [@neovim](https://github.com/neovim/neovim)
 
-----
-You can find some of my other works here:
+:studio_microphone: Speaker and teacher of Open Source and Computers
 
-* Packaging Python in 2022 [YouTube](https://www.youtube.com/watch?v=RXoDukRu9G4)
-* Invisible Walls: Isolating Your Python [YouTube](https://www.youtube.com/watch?v=n9iYvtDDgr8)
-* Packaging Python in 2021 [YouTube](https://www.youtube.com/watch?v=j8iXO5VErjw)
-* How To Package Python Projects In 2021 [Blog](https://www.activestate.com/blog/how-to-package-python-projects-in-2021/)
-* Formalizing a Language [YouTube](https://www.youtube.com/watch?v=I89ZuZYgzok)
-* Intro to Introspection [YouTube](https://www.youtube.com/watch?v=2XDT37Tbv9c)
-* Mouse Vs Python [Interview](https://www.blog.pythonlibrary.org/2021/07/12/pydev-of-the-week-jeremiah-paige/)
+:computer: Engineer at [@ActiveState](https://github.com/ActiveState) as a Python specialist. I help them build better language cores and packages for a variety of languages, Python among them
+
+
+## You can find some of my Conference Talks here
+
+* [Site Unseen: Hidden Python Customization](https://www.youtube.com/watch?v=TRr4kjpnNHQ)
+* [Packaging Python in 2022](https://www.youtube.com/watch?v=RXoDukRu9G4)
+* [Invisible Walls: Isolating Your Python](https://www.youtube.com/watch?v=n9iYvtDDgr8)
+* [Formalizing a Language](https://www.youtube.com/watch?v=I89ZuZYgzok)
+* [Intro to Introspection](https://www.youtube.com/watch?v=2XDT37Tbv9c)
+<!-- * [Packaging Python in 2021](https://www.youtube.com/watch?v=j8iXO5VErjw) -->
+<!-- * How To Package Python Projects In 2021 [Blog](https://www.activestate.com/blog/how-to-package-python-projects-in-2021/) -->
+<!-- * Mouse Vs Python [Interview](https://www.blog.pythonlibrary.org/2021/07/12/pydev-of-the-week-jeremiah-paige/) -->
 
 ## Projects I am a collaborator on
 <!-- using https://github.com/anuraghazra/github-readme-stats#customization -->
