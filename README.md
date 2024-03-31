@@ -104,6 +104,19 @@ Most days you will find me being a
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=pypa&repo=flit&show_owner=true" />
   </picture>
 </a>
+<a href="https://github.com/axodotdev/cargo-dist">
+  <picture>
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=axodotdev&repo=cargo-dist&show_owner=true&theme=dark"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=axodotdev&repo=cargo-dist&show_owner=true"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=axodotdev&repo=cargo-dist&show_owner=true" />
+  </picture>
+</a>
 <a href="https://github.com/PythonCharmers/python-future">
   <picture>
     <source
