@@ -9,7 +9,7 @@ Most days you will find me being a
 
 :studio_microphone: Speaker and teacher of Open Source and Computers
 
-:computer: Engineer at [@ActiveState](https://github.com/ActiveState) as a Python specialist. I help them build better language cores and packages for a variety of languages, Python among them
+:computer: Engineer at [@ActiveState](https://github.com/ActiveState) as a Python specialist. I help them build better language cores and packages for a variety of programming ecosystems, Python among them
 
 
 ## You can find some of my Conference Talks here
@@ -17,9 +17,10 @@ Most days you will find me being a
 * [Site Unseen: Hidden Python Customization](https://www.youtube.com/watch?v=TRr4kjpnNHQ)
 * [Packaging Python in 2022](https://www.youtube.com/watch?v=RXoDukRu9G4)
 * [Invisible Walls: Isolating Your Python](https://www.youtube.com/watch?v=n9iYvtDDgr8)
-* [Formalizing a Language](https://www.youtube.com/watch?v=I89ZuZYgzok)
+* [Formalizing a Language](https://www.youtube.com/watch?v=zf5so0mmxbo)
 * [Intro to Introspection](https://www.youtube.com/watch?v=2XDT37Tbv9c)
 <!-- * [Packaging Python in 2021](https://www.youtube.com/watch?v=j8iXO5VErjw) -->
+<!-- * first [Formalizing a Language](https://www.youtube.com/watch?v=I89ZuZYgzok) -->
 <!-- * How To Package Python Projects In 2021 [Blog](https://www.activestate.com/blog/how-to-package-python-projects-in-2021/) -->
 <!-- * Mouse Vs Python [Interview](https://www.blog.pythonlibrary.org/2021/07/12/pydev-of-the-week-jeremiah-paige/) -->
 
