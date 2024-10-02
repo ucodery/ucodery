@@ -14,10 +14,11 @@ Most days you will find me being a
 
 ## You can find some of my Conference Talks here
 
-* [Packaging Python in 2022](https://www.youtube.com/watch?v=RXoDukRu9G4)
+* [You Are Sharing Your Code Wrong (And What To Do About It)](https://www.youtube.com/watch?v=AMRHRNDVhEg)
 * [Formalizing a Language](https://www.youtube.com/watch?v=zf5so0mmxbo)
 * [Intro to Introspection](https://www.youtube.com/watch?v=bCIDqS1sY5c)
 * [Site Unseen: Hidden Python Customization](https://www.youtube.com/watch?v=TRr4kjpnNHQ)
+* [Packaging Python in 2022](https://www.youtube.com/watch?v=RXoDukRu9G4)
 * [Invisible Walls: Isolating Your Python](https://www.youtube.com/watch?v=n9iYvtDDgr8)
 <!-- * first [Intro to Introspection](https://www.youtube.com/watch?v=2XDT37Tbv9c) -->
 <!-- * [Packaging Python in 2021](https://www.youtube.com/watch?v=j8iXO5VErjw) -->
