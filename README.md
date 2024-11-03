@@ -237,6 +237,19 @@ Most days you will find me being a
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=unraid&repo=docs&show_owner=true" />
   </picture>
 </a>
+<a href="https://github.com/pyOpenSci/pyos-package-template">
+  <picture>
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=pyOpenSci&repo=pyos-package-template&show_owner=true&theme=dark"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=pyOpenSci&repo=pyos-package-template&show_owner=true"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=pyOpenSci&repo=pyos-package-template&show_owner=true" />
+  </picture>
+</a>
 <a href="https://github.com/sarugaku/plette">
   <picture>
     <source
