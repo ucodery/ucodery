@@ -20,6 +20,7 @@ Most days you will find me being a
 * [Site Unseen: Hidden Python Customization](https://www.youtube.com/watch?v=TRr4kjpnNHQ)
 * [Packaging Python in 2022](https://www.youtube.com/watch?v=RXoDukRu9G4)
 * [Invisible Walls: Isolating Your Python](https://www.youtube.com/watch?v=n9iYvtDDgr8)
+* [Who Chooses the Requirements](https://www.youtube.com/watch?v=c1Bg0p097jY&t=27459s)
 <!-- * first [Intro to Introspection](https://www.youtube.com/watch?v=2XDT37Tbv9c) -->
 <!-- * [Packaging Python in 2021](https://www.youtube.com/watch?v=j8iXO5VErjw) -->
 <!-- * first [Formalizing a Language](https://www.youtube.com/watch?v=I89ZuZYgzok) -->
