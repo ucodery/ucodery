@@ -238,6 +238,19 @@ Most days you will find me being a
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=pyOpenSci&repo=software-peer-review&show_owner=true" />
   </picture>
 </a>
+<a href="https://github.com/pyOpenSci/pyopensci.github.io">
+  <picture>
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=pyOpenSci&repo=pyopensci.github.io&show_owner=true&theme=dark"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=pyOpenSci&repo=pyopensci.github.io&show_owner=true"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=pyOpenSci&repo=pyopensci.github.io&show_owner=true" />
+  </picture>
+</a>
 <a href="https://github.com/unraid/docs">
   <picture>
     <source
