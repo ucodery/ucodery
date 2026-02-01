@@ -82,6 +82,19 @@ Most days you will find me being a
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=mypy&show_owner=true" />
   </picture>
 </a>
+<a href="https://github.com/home-assistant/home-assistant.io">
+  <picture>
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=home-assistant&repo=home-assistant.io&show_owner=true&theme=dark"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=home-assistant&repo=home-assistant.io&show_owner=true"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=home-assistant&repo=home-assistant.io&show_owner=true" />
+  </picture>
+</a>
 <a href="https://github.com/PyCQA/isort">
   <picture>
     <source
